@@ -1,0 +1,94 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  background-color: rgb(255,255,255);
+}
+
+body {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.title {
+  width: 100%;
+  background-color: rgb(255,255,255);
+  color: rgb(100,100,200);
+  font-weight: 40px;
+  text-align: CENTER;
+  margin-top: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: fixed;
+  z-index: 1;
+}
+  .pic {
+  position: relative;
+  margin-top: 100px;
+}
+
+  .mods {
+    background-color: rgb(25,25,255);
+    color: rgb(255,255,255);
+    border: dashed;
+    padding-left: 10px;
+  }
+
+#modNum {
+  color: rgb(50, 10, 255);
+  margin-bottom: 0px;
+}
+
+#intros {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.modtitle {
+  background-color: rgb(255,255,255);
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
+
+.introsExpl {
+  background-color: rgb(25,25,255);
+  color:white;
+  padding: 10px;
+  margin-top: 0px;
+}
+
+table {
+  height: 50px;
+}
+td {
+	padding: 10px;
+}
+
+a:link {
+  color: rgb(100, 250, 200);
+}
+
+a:visited {
+  color: rgb(250, 20, 250);
+}
+
+a:hover {
+  background-color: rgb(255,255,255);
+}
+
+.comps {
+		background-color: rgb(25,25,255);
+    color: rgb(255,255,255);
+    border: dashed;
+    padding-left: 10px;
+		position: absolute;
+		margin-top: 120px;
+		width: 100%;
+}
+
+.links1 {
+		margin-top: 180px;
+		position: absolute;
+}
