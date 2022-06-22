@@ -24,6 +24,7 @@ body {
   position: fixed;
   z-index: 1;
 }
+
   .pic {
   position: relative;
   margin-top: 100px;
@@ -62,7 +63,7 @@ body {
 }
 
 table {
-  height: 50px;
+  height: 10px;
 }
 td {
 	padding: 10px;
@@ -88,9 +89,24 @@ a:hover {
 		position: absolute;
 		margin-top: 120px;
 		width: 100%;
+		text-align: center;
 }
 
-.links1 {
-		margin-top: 180px;
-		position: absolute;
+.align {
+	margin-top: 180px;
+	position: absolute;
+	text-align: center;
+	background: rgb(100,100,200);
+	width: 100%;
+	line-height: 1.5;
+	padding-bottom: 10px;
+}
+
+.modundertitle1 {
+	width: 100%;
+  color: black;
+  text-align: CENTER;
+  margin-top: 80px;
+  position: fixed;
+  z-index: 2;
 }
