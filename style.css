@@ -115,3 +115,8 @@ a:hover {
 #bottom {
 	margin-bottom: 20px;
 }
+
+.home {
+	margin-top: 160px;
+	position: absolute;
+}
